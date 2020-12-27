@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
-import TimelineTable from './TimelineTable'
+import TimelineTable from './TimelineTable';
+import './App.css';
 
 const LOCAL_STORAGE_KEY = 'slices'
 function App() {
@@ -40,23 +41,42 @@ function App() {
     )
 
     // give them null after entering value
-    // idRef.current.value = null
+    idRef.current.value = null
+    startRef.current.value = null
+    endRef.current.value = null
+    minStartRef.current.value = null
+    minEndRef.current.value = null
   }
   return (
     <>
       <br/><br/>
       <TimelineTable slices = {slices}/>
+      <div className = "row block">
+        <div className = "column big">
+          ID  <input type = "number" ref = {idRef}/>
+        </div>
+
+        <div className = "column small">
+          START  <input type = "number" ref = {startRef}/>
+        </div>
+
+        <div className = "column small">
+          END  <input type = "number" ref = {endRef}/>
+        </div>
+
+        <div className = "column small">
+          MIN START  <input type = "number" ref = {minStartRef}/>
+        </div>
+
+        <div className = "column small">
+          MIN END  <input type = "number" ref = {minEndRef}/>
+        </div>
+
+      </div>   
       <div>
-        ID  <input type = "number" ref = {idRef}/>
-        START  <input type = "number" ref = {startRef}/>
-        END  <input type = "number" ref = {endRef}/>
-        MIN START  <input type = "number" ref = {minStartRef}/>
-        MIN END  <input type = "number" ref = {minEndRef}/>
-        <button>Delete</button>
-      </div>
-      <div>
-        <button onClick = {handleAddSlice}>+</button>
-      </div>     
+        <br/>
+        <button onClick = {handleAddSlice} className = "block">+</button>
+      </div>   
     </>
   )
 }
