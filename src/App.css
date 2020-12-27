@@ -41,13 +41,14 @@
   display: block;
   margin-left: 10%;
   width: 80%;
+  height: 3em;
   border: none;
   background-color: white;
   padding: 0px 0px;
   font-size: 16px;
   cursor: pointer;
   border-radius: 8px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2), 0 0px 6px 0 rgba(0,0,0,0.19);
 }
 
 input {
