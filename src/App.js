@@ -52,8 +52,7 @@ function App() {
     <>
       <br/><br/>
       <div>
-        <Timeline>
-        </Timeline>
+        <Timeline />
       </div>
       <br/><br/>
       <div>

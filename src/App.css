@@ -115,15 +115,24 @@ input {
 }
 
 .bar {
+  float: left;
   display: block;
-  width: 80px;
   opacity: 10%;
   height: 100%;
   border: none;
   background-color: gray;
-  padding: 0px 10px;
   cursor: pointer;
 }
+
+.space {
+  float: left;
+  display: block;
+  opacity: 10%;
+  height: 100%;
+  border: none;
+  cursor: pointer;
+}
+
 
 .grid{
   border: black;

@@ -2,11 +2,22 @@ import React from 'react'
 
 export default function Timeline() {
     return (
+        
         <div className = "row bigblock">
             Selected Channels
             <br/><br/><br/>
             <div className = "grid">
-
+                <div className = "bar" style = {{width: (100/60 * 6) + '%'}}></div>
+                <div className = "space" style = {{width: (100/60 * 6) + '%'}}></div>
+                <div className = "bar" style = {{width: (100/60 * 6) + '%'}}></div>
+                <div className = "space" style = {{width: (100/60 * 2) + '%'}}></div>
+                <div className = "bar" style = {{width: (100/60 * 6) + '%'}}></div>
+                <div className = "space" style = {{width: (100/60 * 3) + '%'}}></div>
+                <div className = "bar" style = {{width: (100/60 * 6) + '%'}}></div>
+                <div className = "space" style = {{width: (100/60 * 2) + '%'}}></div>
+                <div className = "bar" style = {{width: (100/60 * 6) + '%'}}></div>
+                <div className = "space" style = {{width: (100/60 * 4) + '%'}}></div>
+                <div className = "bar" style = {{width: (100/60 * 6) + '%'}}></div>
             </div>
             <div className = "row">
                 <div className = "column xlabel">10:00</div>

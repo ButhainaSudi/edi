@@ -1,9 +1,12 @@
 import React from 'react'
 
 export default function Slice({ slice }) {
+
     return (
         <>
+            
             <div className = "row block">
+                
                 <div className = "column big">
                     ID  <input type = "number" value = {slice.id}/>
                 </div>
@@ -24,6 +27,7 @@ export default function Slice({ slice }) {
                     MIN END  <input type = "number" value = {slice.minEnd}/>
                     <button className = "delete">x</button>
                 </div>
+
 
             </div>
             <br/>
