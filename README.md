@@ -13,9 +13,11 @@ General Requirement : You need to make a page layout. Attachment contains concep
 
 I used Reactjs to implement. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Installation
+
 In the project directory, you can run:
 
-### Installation `yarn start`
+### `yarn start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
