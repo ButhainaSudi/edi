@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import TimelineTable from './TimelineTable';
 import './App.css';
+import Timeline from './Timeline';
 
 const LOCAL_STORAGE_KEY = 'slices'
 function App() {
@@ -50,6 +51,12 @@ function App() {
   return (
     <>
       <br/><br/>
+      <div>
+        <Timeline>
+        </Timeline>
+      </div>
+      <br/><br/>
+      <div>
       <TimelineTable slices = {slices}/>
       <div className = "row block">
         <div className = "column big">
@@ -76,6 +83,7 @@ function App() {
       <div>
         <br/>
         <button onClick = {handleAddSlice} className = "block">+</button>
+      </div>
       </div>   
     </>
   )
