@@ -34,8 +34,8 @@ You will also see any lint errors in the console.
 ### Test Inputs
 
 - ID : Any integer input
-- START : 
-- END : 
+- START : Choose time as an input
+- END : Choose time as an input
 - MIN START : 
 - MIN END : 
 
