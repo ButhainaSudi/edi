@@ -141,6 +141,8 @@ input {
   border: none;
   background-color: lightgreen;
   cursor: pointer;
+  resize: horizontal;
+  overflow: auto;
 }
 
 .space {
