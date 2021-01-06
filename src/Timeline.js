@@ -34,7 +34,7 @@ export default function Timeline() {
                 <div className = "bar" style = {{width: (100/60 * 6) + '%'}}></div>
                 <div className = "space" style = {{width: (100/60 * 4) + '%'}}></div>
                 <div className = "bar" style = {{width: (100/60 * 6) + '%'}}></div>
-                <div className = "progress-bar" style = {{width: (100/60 * 7) + '%'}}></div>
+                <div className = "progress-bar" style = {{width: (960/60 * 10) + 'px'}}></div>
             </div>
             <div className = "row">
                 <div className = "ylabel">0</div>
