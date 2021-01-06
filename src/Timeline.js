@@ -18,6 +18,10 @@ export default function Timeline() {
             <div className = "row">
                 <p>Selected Channels</p>
             </div>
+
+            <div className = "row">
+                <div className = "ylabel">1</div>
+            </div>
             <div className = "grid">
                 <div className = "bar" style = {{width: (100/60 * 6) + '%'}}></div>
                 <div className = "space" style = {{width: (100/60 * 6) + '%'}}></div>
@@ -33,6 +37,7 @@ export default function Timeline() {
                 <div className = "progress-bar" style = {{width: (100/60 * 7) + '%'}}></div>
             </div>
             <div className = "row">
+                <div className = "ylabel">0</div>
                 <div className = "column xlabel">10:00</div>
                 <div className = "column xlabel">10:05</div>
                 <div className = "column xlabel">10:10</div>
