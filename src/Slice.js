@@ -12,11 +12,11 @@ export default function Slice({ slice }) {
                 </div>
 
                 <div className = "column small">
-                    START  <input type = "number" value = {slice.start}/>
+                    START  <input type = "time" value = {slice.start}/>
                 </div>
 
                 <div className = "column small">
-                    END  <input type = "number" value = {slice.end}/>
+                    END  <input type = "time" value = {slice.end}/>
                 </div>
 
                 <div className = "column small">

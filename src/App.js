@@ -63,11 +63,11 @@ function App() {
         </div>
 
         <div className = "column small">
-          START  <input type = "number" ref = {startRef}/>
+          START  <input type = "time" ref = {startRef}/>
         </div>
 
         <div className = "column small">
-          END  <input type = "number" ref = {endRef}/>
+          END  <input type = "time" ref = {endRef}/>
         </div>
 
         <div className = "column small">
