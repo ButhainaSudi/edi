@@ -3,8 +3,16 @@ import React from 'react'
 export default function Timeline() {
     return (
         <>
-
-        <br/>        
+        <div className = "row">
+            <div className = "column small">
+                Selected Channels
+            </div>
+            <div>
+                <div className = "mini-block"></div>
+            </div>
+        </div>
+        <br/>
+        
         <div className = "row bigblock">
             <br/><br/>
             <div className = "row">

@@ -51,14 +51,6 @@
   box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2), 0 0px 6px 0 rgba(0,0,0,0.19);
 }
 
-.xlabel{
-  margin-left: 2%;
-  width: 38px;
-  border-bottom: black;
-  border-bottom-width: 1px;
-  text-align: left;
-}
-
 .bigblock {
   display: block;
   margin-left: 10%;
@@ -159,7 +151,6 @@ input {
   cursor: pointer;
 }
 
-
 .grid{
   border: black;
   border-width: 1px;
@@ -172,4 +163,18 @@ input {
   background-image:
     linear-gradient(to right, grey 1px, transparent 1px),
     linear-gradient(to bottom, grey 1px, transparent 1px);
+}
+
+.xlabel{
+  margin-left: 2%;
+  width: 38px;
+  text-align: left;
+}
+
+.ylabel{
+  margin-left: 2%;
+  width: 38px;
+  border-bottom: black;
+  border-bottom-width: 1px;
+  text-align: left;
 }
