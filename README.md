@@ -19,7 +19,11 @@ I used Reactjs to implement. This project was bootstrapped with [Create React Ap
 - cd to project directory
 - In the project you can run:
 
-### Running the Project : `yarn start`
+### Running the Project : 
+
+### Step 1 : Run `yarn`
+
+### Step 2 : Run `yarn run start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
