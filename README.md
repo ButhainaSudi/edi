@@ -15,7 +15,9 @@ I used Reactjs to implement. This project was bootstrapped with [Create React Ap
 
 ## Installation
 
-In the project directory, you can run:
+- Clone the repository
+- cd to project directory
+- In the project you can run:
 
 ### `yarn start`
 
