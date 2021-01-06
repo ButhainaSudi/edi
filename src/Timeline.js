@@ -18,6 +18,7 @@ export default function Timeline() {
                 <div className = "bar" style = {{width: (100/60 * 6) + '%'}}></div>
                 <div className = "space" style = {{width: (100/60 * 4) + '%'}}></div>
                 <div className = "bar" style = {{width: (100/60 * 6) + '%'}}></div>
+                <div className = "progress-bar" style = {{width: (100/60 * 7) + '%'}}></div>
             </div>
             <div className = "row">
                 <div className = "column xlabel">10:00</div>

@@ -116,6 +116,7 @@ input {
 
 .bar {
   float: left;
+  position: relative;
   display: block;
   opacity: 10%;
   height: 100%;
@@ -124,8 +125,20 @@ input {
   cursor: pointer;
 }
 
+.progress-bar {
+  float: left;
+  position: absolute;
+  display: block;
+  opacity: 10%;
+  height: 240px;
+  border: none;
+  background-color: lightgreen;
+  cursor: pointer;
+}
+
 .space {
   float: left;
+  position: relative;
   display: block;
   opacity: 10%;
   height: 100%;
