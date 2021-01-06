@@ -71,11 +71,11 @@ function App() {
         </div>
 
         <div className = "column small">
-          MIN START  <input type = "number" ref = {minStartRef}/>
+          MIN START  <input type = "text" ref = {minStartRef}/>
         </div>
 
         <div className = "column small">
-          MIN END  <input type = "number" ref = {minEndRef}/>
+          MIN END  <input type = "text" ref = {minEndRef}/>
         </div>
 
       </div>   

@@ -20,11 +20,11 @@ export default function Slice({ slice }) {
                 </div>
 
                 <div className = "column small">
-                    MIN START  <input type = "text" value = {(slice.minStart * 100) + '%'}/>
+                    MIN START  <input type = "text" value = {slice.minStart}/>
                 </div>
 
                 <div className = "column medium">
-                    MIN END  <input type = "text" value = {(slice.minEnd * 100) + '%'}/>
+                    MIN END  <input type = "text" value = {slice.minEnd}/>
                     <button className = "delete">x</button>
                 </div>
 
