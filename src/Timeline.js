@@ -2,10 +2,14 @@ import React from 'react'
 
 export default function Timeline() {
     return (
-        
+        <>
+
+        <br/>        
         <div className = "row bigblock">
-            Selected Channels
-            <br/><br/><br/>
+            <br/><br/>
+            <div className = "row">
+                <p>Selected Channels</p>
+            </div>
             <div className = "grid">
                 <div className = "bar" style = {{width: (100/60 * 6) + '%'}}></div>
                 <div className = "space" style = {{width: (100/60 * 6) + '%'}}></div>
@@ -36,8 +40,9 @@ export default function Timeline() {
                 <div className = "column xlabel">11:00</div>
             </div>
             <div className = "row">
-                <h6 align = "center">TIME</h6>
+                <h4 align = "center">TIME</h4>
             </div>
         </div>
+        </>
     )
 }

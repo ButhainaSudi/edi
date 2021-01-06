@@ -41,11 +41,11 @@
   display: block;
   margin-left: 10%;
   width: 80%;
-  height: 3em;
+  height: 5em;
   border: none;
   background-color: white;
   padding: 0px 0px;
-  font-size: 16px;
+  font-size: 10px;
   cursor: pointer;
   border-radius: 8px;
   box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2), 0 0px 6px 0 rgba(0,0,0,0.19);
@@ -53,7 +53,6 @@
 
 .xlabel{
   margin-left: 2%;
-  font-size: 10px;
   width: 38px;
   border-bottom: black;
   border-bottom-width: 1px;
@@ -67,7 +66,21 @@
   border: none;
   background-color: white;
   padding: 0px 0px;
-  font-size: 16px;
+  font-size: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2), 0 0px 6px 0 rgba(0,0,0,0.19);
+}
+
+.mini-block {
+  display: block;
+  margin-left: 30%;
+  width: 60%;
+  height: 5em;
+  border: none;
+  background-color: white;
+  padding: 0px 0px;
+  font-size: 10px;
   cursor: pointer;
   border-radius: 8px;
   box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2), 0 0px 6px 0 rgba(0,0,0,0.19);
