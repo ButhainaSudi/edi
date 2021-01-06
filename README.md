@@ -36,8 +36,8 @@ You will also see any lint errors in the console.
 - ID : Any integer input
 - START : Choose time as an input
 - END : Choose time as an input
-- MIN START : 
-- MIN END : 
+- MIN START : Enter input in percentage
+- MIN END : Enter input in percentage
 
 
 ### `yarn test`
